@@ -2,7 +2,7 @@ import React from 'react';
 
 const InitialPage = () => {
   return (
-    <section>
+    <section className="section">
       <div className="container">
         <div>
           <img src="#" alt="изображение управления кошельком" />
@@ -30,8 +30,8 @@ const InitialPage = () => {
             </div>
 
             <div className="form__button--position">
-              <button>Вход</button>
-              <button>Регистрация</button>
+              <button className="entry">Вход</button>
+              <button className="registration">Регистрация</button>
             </div>
           </form>
         </div>
