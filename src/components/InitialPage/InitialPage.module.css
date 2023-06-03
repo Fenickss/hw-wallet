@@ -1,0 +1,13 @@
+:root {
+  --primary-text-color: #000000;
+  --accent--color: #24cca7;
+}
+
+* {
+  margin: 0;
+}
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

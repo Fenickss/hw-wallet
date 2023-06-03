@@ -1,4 +1,4 @@
-import InitialPage from './InitialPage/InitialPage';
+import InitialPage from './InitialPage';
 const App = () => {
   return <InitialPage />;
 };

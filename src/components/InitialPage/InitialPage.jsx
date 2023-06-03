@@ -1,14 +1,16 @@
 import React from 'react';
+import style from './InitialPage.module.css';
 
 const InitialPage = () => {
   return (
     <section className="section">
-      <div className="container">
+      <div className={style.container}>
         <div>
-          <img src="#" alt="изображение управления кошельком" />
+          <img src="" alt="изображение управления кошельком" width="435px" />
           <h1>Finance App</h1>
         </div>
         <div className="Finance__menu">
+          <p className="logo">Wallet</p>
           <form className="form" action="">
             <div className="form__field">
               <input
