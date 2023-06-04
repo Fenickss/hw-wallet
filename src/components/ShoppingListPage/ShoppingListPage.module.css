@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/circe');
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+
+  min-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: tomato;
+}
+
+.header {
+  display: flex;
+  width: 1110px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.header__link {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+
+  margin-left: 30px;
+
+  color: #bdbdbd;
+}
+
+.main {
+  display: flex;
+  min-width: 1140px;
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: yellowgreen;
+}
+
+.nav {
+  display: flex;
+}
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  list-style: none;
+}
+.nav__item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.nav__link {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}

@@ -1,6 +1,14 @@
-import InitialPage from './InitialPage';
+// import InitialPage from './InitialPage';
+// import RegistrationPage from './RegistrationPage';
+import ShoppingListPage from './ShoppingListPage';
 const App = () => {
-  return <InitialPage />;
+  return (
+    <>
+      {/* <InitialPage /> */}
+      {/* <RegistrationPage /> */}
+      <ShoppingListPage />
+    </>
+  );
 };
 
 export default App;

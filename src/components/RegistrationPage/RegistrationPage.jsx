@@ -1,8 +1,8 @@
 import React from 'react';
-import s from './InitialPage.module.css';
-import frameImg from '../../image/Frame.jpg';
+import s from '../RegistrationPage/RegistrationPage.module.css';
+import frameImg from '../../image/Frame2.png';
 
-const InitialPage = () => {
+const RegistrationPage = () => {
   return (
     <section className="section">
       <div className={s.container}>
@@ -39,6 +39,24 @@ const InitialPage = () => {
                     placeholder="Пароль"
                   />
                   <label className="form-label" htmlFor="password"></label>
+                  <div className={s.form__field}>
+                    <input
+                      className={s.form__input}
+                      type="password"
+                      name="password"
+                      placeholder="Подтвердите пароль"
+                    />
+                    <label className="form-label" htmlFor="password"></label>
+                  </div>
+                  <div className={s.form__field}>
+                    <input
+                      className={s.form__input}
+                      type="text"
+                      name="name"
+                      placeholder="Имя"
+                    />
+                    <label className="form-label" htmlFor="name"></label>
+                  </div>
                   <button className={s.button__entry}>Вход</button>
                   <button className={s.button__registration}>
                     Регистрация
@@ -53,4 +71,4 @@ const InitialPage = () => {
   );
 };
 
-export default InitialPage;
+export default RegistrationPage;
