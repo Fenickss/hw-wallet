@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hw-wallet/static/css/main.38d0d616.css",
-    "main.js": "/hw-wallet/static/js/main.e598b569.js",
+    "main.css": "/hw-wallet/static/css/main.69db3302.css",
+    "main.js": "/hw-wallet/static/js/main.6dbd9352.js",
     "index.html": "/hw-wallet/index.html",
-    "main.38d0d616.css.map": "/hw-wallet/static/css/main.38d0d616.css.map",
-    "main.e598b569.js.map": "/hw-wallet/static/js/main.e598b569.js.map"
+    "main.69db3302.css.map": "/hw-wallet/static/css/main.69db3302.css.map",
+    "main.6dbd9352.js.map": "/hw-wallet/static/js/main.6dbd9352.js.map"
   },
   "entrypoints": [
-    "static/css/main.38d0d616.css",
-    "static/js/main.e598b569.js"
+    "static/css/main.69db3302.css",
+    "static/js/main.6dbd9352.js"
   ]
 }
