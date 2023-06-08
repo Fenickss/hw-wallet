@@ -15,25 +15,21 @@ p {
   padding: 0;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-
-  min-width: 1140px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background: tomato;
-}
-
 .header {
   display: flex;
-  width: 1110px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 1140px;
+  padding: 0 15px;
+  background-color: darkred;
 }
 
 .header__list {
@@ -41,10 +37,16 @@ p {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-left: auto;
   align-items: center;
 }
 
 .header__link {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 30px;
+
   font-family: 'Circe';
   font-style: normal;
   font-weight: 400;
@@ -52,22 +54,29 @@ p {
   line-height: 27px;
   text-decoration: none;
 
-  margin-left: 30px;
-
   color: #bdbdbd;
 }
 
 .main {
-  min-width: 1140px;
+  display: flex;
+}
+
+.container__main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
   padding-top: 40px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background: yellowgreen;
+  padding: 0 15px;
+  min-width: 1140px;
+
+  background-color: #dcdcdf;
 }
 
 .nav__posicion {
-  display: inline-flex;
+  display: flex;
+
   flex-direction: column;
+  padding-top: 40px;
 }
 
 .nav {
@@ -86,17 +95,18 @@ p {
 }
 
 .nav__link {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
-  text-decoration: none;
-
   display: flex;
   align-items: center;
 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
   color: #000000;
+
+  text-decoration: none;
 }
 
 .balance {
@@ -238,4 +248,50 @@ p {
   line-height: 24px;
 
   color: #ffffff;
+}
+
+/* 
+TodoList====================================================================
+*/
+
+.todoList__position {
+  padding-top: 40px;
+}
+.header__todoList {
+  /* outline: 1px solid tomato; */
+  width: 700px;
+  margin-left: 60px;
+}
+.todoList__list {
+  display: flex;
+  border-radius: 30px;
+  justify-content: center;
+
+  list-style: none;
+  outline: 1px solid green;
+}
+
+.todoList__item + .todoList__item {
+  margin-left: 58px;
+}
+
+.todoList__text {
+  margin: 16px 0;
+
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.s.todoListMain__position {
+}
+.s.todoListMain__list {
+}
+.s.todoListMain__item {
+}
+.s.todoListMain__text {
 }
